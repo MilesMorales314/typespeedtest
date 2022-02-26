@@ -13,6 +13,8 @@ body {
     /* justify: center; */
     display: grid;
     grid-template-columns: 1.5fr 3fr 1.5fr;
+    grid-template-rows: 1fr 6fr;
+    place-items: center;
     margin: 0;
     width: 100%;
     height: fit-content;
@@ -21,7 +23,15 @@ body {
     font-family: Raleway;
 }
 
-div {
+img {
+    height: 4rem;
+}
+
+.image {
+    grid-column: 2 / 3;
+}
+
+.text {
     font-size: 1.5rem;
     margin:0;
     height: 100%;
